@@ -109,7 +109,7 @@ class _SendMoneyState extends State<SendMoney> {
         child: Container(
           margin: EdgeInsets.only(left: 20.0),
           child: Image.asset(
-            '/Users/kha/Desktop/Workspace/Flutter/lock_view/lib/assets/images/icClose.png',
+            '/Users/kha/Desktop/Workspace/Flutter/learn_flutter/lib/assets/images/icClose.png',
               fit: BoxFit.scaleDown,
           ),
         ),
@@ -124,7 +124,7 @@ class _SendMoneyState extends State<SendMoney> {
         margin: EdgeInsets.only(right: 20),
         child: Image(
           image: AssetImage(
-            '/Users/kha/Desktop/Workspace/Flutter/lock_view/lib/assets/images/icLogo.png'
+            '/Users/kha/Desktop/Workspace/Flutter/learn_flutter/lib/assets/images/icLogo.png'
           ),
           fit:  BoxFit.cover,
         ),
@@ -160,7 +160,7 @@ class _SendMoneyState extends State<SendMoney> {
         children: <Widget>[
           SizedBox(width: 30),
           Image.asset(
-            '/Users/kha/Desktop/Workspace/Flutter/lock_view/lib/assets/images/icVndSmall.png',
+            'lib/assets/images/icVndSmall.png',
             fit: BoxFit.scaleDown,
           ),
           SizedBox(width: 10),
@@ -343,7 +343,7 @@ class _SendMoneyState extends State<SendMoney> {
             highlightColor: Colors.white,
             splashColor: Colors.white,
             icon: new Image.asset(
-                '/Users/kha/Desktop/Workspace/Flutter/lock_view/lib/assets/images/icKeyboardDeleteV2.png',
+                'lib/assets/images/icKeyboardDeleteV2.png',
               color: Colors.white,
             ),
             onPressed: () {

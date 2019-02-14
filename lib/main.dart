@@ -95,7 +95,7 @@ class _KeyboardLockViewState extends State<KeyboardLockView> {
         highlightColor: Colors.transparent,
         splashColor: Colors.transparent,
         icon: new Image.asset(
-            '/Users/kha/Desktop/Workspace/Flutter/lock_view/lib/assets/images/icKeyboardDeleteV2.png',
+            '/Users/kha/Desktop/Workspace/Flutter/learn_flutter/lib/assets/images/icKeyboardDeleteV2.png',
           color: Colors.white,
         ),
         onPressed: () {
