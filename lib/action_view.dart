@@ -149,9 +149,32 @@ class _SendMoneyState extends State<SendMoney> {
           Container(
             width: 80,
             height: 80,
-            color: Colors.blue,
-          )
+            decoration: BoxDecoration(
+              color: Colors.white.withOpacity(0.5),
+              borderRadius: BorderRadius.all(const Radius.circular(12.0)),
+            ),
+            padding: EdgeInsets.all(22),
+            child: ClipOval(
+              child: Image.network('https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50'),
+            )
+          ),
+          SizedBox(width: 20),
+          _editButton()
         ],
+      );
+    }
+
+    Widget _editButton() {
+      return GestureDetector(
+        child: Container(
+          child: Image.asset(
+            'lib/assets/images/icEdit.png',
+              fit: BoxFit.scaleDown,
+          ),
+        ),
+        onTap: () {
+          print("click edit user");
+        },
       );
     }
 
