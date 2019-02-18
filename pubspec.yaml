@@ -21,6 +21,8 @@ dependencies:
   cupertino_icons: ^0.1.2
   flutter_masked_text: ^0.7.0
   gradient_text: ^1.0.2
+  flutter_sequence_animation: ^3.0.1
+  after_layout: ^1.0.7
 
 dev_dependencies:
   flutter_test:
